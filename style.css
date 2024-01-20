@@ -1,0 +1,287 @@
+
+/* Add this style to your existing CSS or create a new CSS file */
+/* Add this style to your existing CSS or create a new CSS file */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('data:image/jpeg;base64,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'); /* Replace 'your-image-url.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    height: 100vh; /* Ensure the background covers the full height of the viewport */
+}
+
+
+.navbar {
+    background-color: violet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+}
+/* Add this style to your existing CSS or create a new CSS file */
+
+  
+.nav-item {
+    text-decoration: none;
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+/* Add this style to your existing CSS or create a new CSS file */
+.nav-item:hover {
+    color: red; /* Change this to your desired color */
+  }
+  
+.nav-item i {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.genres-container {
+    position: relative;
+}
+.genres-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.genres-dropdown .column {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.genres-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.genres-dropdown a:hover {
+    background-color: #f1f1f1;
+}
+
+.nav-item.genres:hover + .genres-dropdown {
+    display: block;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.search-box input {
+    padding: 5px;
+    margin-right: 10px;
+    background-color: #f2f2f2; /* Set the background color */
+    border: 1px solid #ccc; /* Set the border color */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    margin-bottom: 5px;
+}
+
+
+.search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+/* Add this style to your existing CSS or create a new CSS file */
+
+/* Style for the dropdown */
+.dropdown {
+    display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropbtn {
+    background-color: violet;
+    color: brown;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the dropdown content */
+
+.auth-box {
+    display: flex;
+}
+
+.auth-item {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.movie {
+    background-color: lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    overflow: hidden;
+    width: 300px;
+}
+
+/* Add this style to your existing CSS or create a new CSS file */
+/* Add this style to your existing CSS or create a new CSS file */
+.movie img {
+    width: 300px; /* Set your preferred width */
+    height: 300px; /* Set your preferred height */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+
+
+.movie-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.movie-info {
+    font-size: 1rem;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.movie-description {
+    padding: 10px;
+}
+
+.movie-rating {
+    background-color: darkslategrey;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.movie-row {
+    margin-bottom: 5px; /* Adjust the margin between rows if necessary */
+}
+
+.auth-box {
+    display: flex;
+}
+
+.auth-item {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.content {
+    flex-grow: 1; /* Allow content to take up remaining space */
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align at the bottom */
+    margin-top: auto; /* Push to the bottom */
+    margin-bottom: 20px; /* Add some margin at the bottom */
+}
+
+.page-box {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.page-box:hover {
+    background-color: #555;
+}
+.ellipsis {
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+/* Add this style to your existing CSS or create a new CSS file */
+.movie-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust as needed for spacing between rows */
+}
+/* CSS for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover,
+.close:focus {
+    color: black;
+}
+
+/* CSS for the form inside the modal */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

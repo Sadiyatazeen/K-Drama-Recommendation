@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Recommendations</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- Inside your nav element -->
+<a href="#" class="nav-item" id="Link"><i class="fas fa-home"></i> Home</a>
+<!-- Inside your nav element -->
+
+<!-- Inside your nav element -->
+<div class="search-box">
+  <input type="text" placeholder="Search...">
+  <button><i class="fas fa-search"></i></button>
+</div>
+<div class="genres-container">
+<a href="#" class="nav-item genres" id="Link"><i class="fas fa-home"></i> Geners</a>
+<div class="genres-dropdown">
+  <div class="column">
+    <a href="#">Action</a>
+    <a href="#">Romance</a>
+    <a href="#">Comedy</a>
+    <!-- Add more genre links as needed -->
+</div>
+<div class="column">
+    <a href="#">Drama</a>
+    <a href="#">Fantasy</a>
+    <a href="#">Sci-Fi</a>
+    <!-- Add more genre links as needed -->
+</div>
+</div>
+</div>
+<!-- Inside your nav element -->
+<a href="#" class="nav-item" id="Link"><i class="fas fa-home"></i> Year</a>
+
+
+<div class="auth-box">
+  <!-- <a href="#" class="auth-item">Sign In</a> -->
+  <!-- Update your "Sign In" link -->
+<a href="#" class="auth-item" onclick="openModal()">Sign In</a>
+
+  <a href="#" class="auth-item">Log In</a>
+</div>
+</nav>
+<!-- HTML for the modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <!-- Add your sign-in/log-in form here -->
+      <h2>Sign In / Log In</h2>
+      <!-- Your form elements go here -->
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email">
+
+        <!-- Add other form elements as needed -->
+
+        <button type="submit">Sign In</button>
+    </form>
+
+  </div>
+</div>
+
+
+  <!-- Add more movie elements here -->
+
+</div> -->
+    <div class="content" id="movieContent">
+      <!-- Content will be dynamically updated based on the selected page -->
+  </div>
+    <div class="pagination" id="pagination">
+      <!-- Add page-box divs dynamically using JavaScript -->
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
