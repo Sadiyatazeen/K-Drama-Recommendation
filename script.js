@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const movieContent = document.getElementById('movieContent');
 
     // Sample data for the number of pages and movies
-    const totalPages = 2; // Adjust the number of pages as needed
-    const moviesPerPage = 6; // Adjust the number of movies per page as needed
+    const totalPages = 2; 
+    const moviesPerPage = 6; 
     const allMovies = [
         // Sample movie data for each page
         [
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function renderMovies(movies) {
-		// Clear existing content
+		
 		movieContent.innerHTML = '';
 	
 		// Render movies on the page
